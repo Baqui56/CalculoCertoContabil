@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="imagem/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Cálculo Certo Contábil</title>
+</head>
+<body>
+    
+    <header>
+
+        <div class="container">
+
+                <div class="logo-text">
+             
+                <div class="logo"><i class="bi bi-graph-up-arrow"></i>
+                </div><!--logo-->
+               
+                <div class="text"><h1>CÁLCULO CERTO <br> CONTÁBIL</h1>
+                </div><!--text-->
+
+                </div><!--logo-text-->
+            
+                <nav  id="home" class="menu">
+                    <ul>
+                        <li><a href="#home">HOME</a></li> 
+                        <li><a href="#caixa-media">A EMPRESA</a></li>
+                        <li><a href="#caixa-grande">SERVIÇOS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+       
+                <div class="btn-abrir-menu" id="btn-menu">
+                    <i class="bi bi-list"></i>
+                 </div>
+
+
+                <div class="menu-mobile" id="menu-mobile">
+                        <div class="btn-fechar">
+                     <i class="bi bi-x-lg"></i>
+                </div><!--menu-mobile-->
+
+
+                <nav>
+                    <ul>
+                        <li><a href="#home">HOME</a></li> 
+                        <li><a href="#caixa-media">EMPRESA</a></li>
+                        <li><a href="#caixa-grande">SERVIÇOS</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div><!--mobile-menu-->
+
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-->
+        
+        </div><!--container--> 
+    </header>
+
+    
+    <main>
+        <section>
+            <div class="caixa-peq" id="home">
+
+                <div class="title-caixa-peq">
+                    <h1>TRANSFORMANDO A ARTE ADMINTRATIVA E CONTÁBIL EM UMA EXPERIÊNCIA IMPAR.</h1>
+
+                    <h3>Administração e Contabilidade andam lado a lado. Com uma combinação única de Gestão ímpar,
+                        praticidade e otimização de processos, estou pronta para auditar a sua empresa, fazer a 
+                        gestão da mesma e até mesmo realizar o seu sonho do próprio negócio.
+                    </h3>
+                        
+                </div>
+
+                
+
+            </div><!--caixa-peq-->
+
+            
+
+        </section>
+
+
+
+        <section id="caixa-media">
+
+            <div class="caixa-media">
+                <div class="text-caixa-media">
+                     <h1>Está precisando de uma ajudinha na contabilidade?</h1>
+                     <h2>
+                        Somos uma empresa especializada em prestar serviços nas áreas Contábil, 
+                         Fiscal, Legalização, Tributária, Trabalhista e departamento 
+                         Pessoal, buscando constantemente um padrão de excelência. 
+                    </h2> 
+
+                </div>
+                    
+
+            </div><!--caixa-media-->
+
+
+
+
+            <div class="caixa-media-text">
+
+            <div class="text-medio">
+             
+                <div class="missao">
+                     <div class="text-missao">
+                        <h1>Nosso Pilar</h1>
+                        <i class="bi bi-bank"></i>
+                        <p>Um contador(a) é capaz de somar as satisfações, multiplicá-las pelos sonhos, 
+                            subtrair as decepções e dividir pela metade os problemas que não são
+                             importantes para sua vida. Por isso os melhores resultados são fruto da
+                              melhor equipe que tem o melhor cliente.</p>
+                    </div><!--tex-missao-->
+
+                    <div class="text-missao">
+                        <h1>Nossa Missão</h1>
+                        <i class="bi bi-bullseye"></i>
+                    <p>A contabilidade é a linguagem dos negócios e essa linguagem conta a 
+                        história de cada empresa. Aperfeiçoar essa linguagem buscando aumentar
+                        seu poder de predição e de utilidade para o usuário é talvez a 
+                        principal missão do contador.</p>
+                
+                    </div><!--tex-missao-->
+               
+                   
+                    <div class="text-missao">
+                        <h1>Nossos Valores</h1>
+                        <i class="bi bi-coin"></i>
+                        <p>Comprometimento com o cliente,
+                            Inovação na forma dos atendimentos,
+                            Transparência nos nossos serviços,
+                            Agilidade,
+                            Competência
+                            e muito
+                            Respeito aos nossos clientes.</p>
+                    </div><!--tex-missao-->
+
+                </div><!--tex-missao-->
+           
+            </div><!--caixa-media-text-->
+            
+        </section>
+
+
+
+        <section id="caixa-grande" class="caixa-grande">
+
+            <div  class="text-caixa-grande">
+                <h1>Nossos Serviços</h1>
+            </div>
+
+            <h4>Click nas imagens para conhecer nossos serviços</h4>
+
+            <div class="imagens">
+
+            
+                <img id="open-modal" src="imagem/servico-fiscal.jpg" >
+                
+                <img id="open-modal2" src="imagem/servico-pessoal.jpg" alt="">
+
+                <img id="open-modal3" src="imagem/servico-contabil.jpg" alt="">
+                 
+                <img id="open-modal4" src="imagem/servico-empresa.jpg" alt="">
+    
+            </div>
+
+            <div id="fade" class="hide"></div>
+            <div id="modal" class="hide">
+                <div class="modal-header">
+                    <h2>Serviço Fiscal</h2>
+                    <button id="close-modal">X</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>• Apuração dos impostos na esfera federal, estadual e municipal;<br>
+                        • Escrituração de livros fiscais legalmente exigidos;<br>
+                        • Controle, validação, entrega e acompanhamento de todas as obrigações inerentes às atividades da empresa, com entrega das obrigações acessórias, tais como SPED Fiscal, SPED Contribuições, SPED Reinf;<br>
+                        • Emissão de guias;<br>
+                        • Orientação para emissão de N.F.;<br>
+                        • Escrituração completa por processamento de dados;</p><br>
+                </div>
+
+            </div>
+
+            <div id="fad" class="hid"></div>
+            <div id="moda" class="hid">
+                <div class="modal-header">
+                    <h2>Serviço Pessoal</h2>
+                    <button id="close-moda">X</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>• Contabilidade adaptada às NBCs;<br>
+                        • Elaboração das Demonstrações Financeiras;<br>
+                        • Processamento de informações contábeis;<br>
+                        • Apuração dos resultados mensais, trimestrais e anuais;<br>
+                        • Atendimento às fiscalizações e auditorias;<br>
+                        • Escrituração Contábil e SPED Contábil;<br>
+                        • Apuração de tributos provenientes da escrituração contábil;<br>
+                        • Controle e administração dos bens do ativo fixo com relatórios gerenciais;<br>
+                        • Orientação para tomada de decisão;</p><br>
+                </div>
+
+            </div>
+
+
+            <div id="fada" class="cid"></div>
+            <div id="mod" class="cid">
+                <div class="modal-header">
+                    <h2>Serviço Contabil</h2>
+                    <button id="close-mod">X</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        • Admissão e demissão de funcionários;<br>
+                        • Elaboração de folhas de pagamento, Pro Labore, décimo terceiro salário etc;<br>
+                        • Apuração de impostos e contribuições, proveniente de verbas trabalhistas e societárias;<br>
+                        • Apuração de impostos, contribuições sindicais e confederativas;<br>
+                        • E- Social – Doméstica;<br>
+                        • Atualização de CTPS e Ficha Eletrônica;<br>
+                        • Controle de Vencimentos de férias, admissão e demissão;<br>
+                        • Dissídio coletivo;<br>
+                        • Emissão de informe de rendimentos dos funcionários e sócios;<br>
+                        • Acompanhamento às homologações;<br>
+                        • Orientação para tomada de decisão;</p><br>
+                </div>
+
+            </div>
+
+
+            <div id="f" class="c"></div>
+            <div id="m" class="c">
+                <div class="modal-header">
+                    <h2>Serviço Para Empresa</h2>
+                    <button id="close-m">X</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>• Consultoria para constituição, alteração e regularização de documentação da empresa;<br>
+                        • Legalização de empresas;<br>
+                        • Elaboração de Contrato Social;<br>
+                        • Alterações sociais, parciais e totais;<br>
+                        • Certidões negativas de tributos e contribuições de qualquer natureza;<br>
+                        • Levantamento e parcelamento de débitos junto aos órgãos;<br>
+                        • Certificado digital: ajudamos na obtenção dos certificados padrão ICP-Brasil.</p><br>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+<footer id="contato">
+  <div class="footer">
+
+    <div class="contatos">
+      <h5>CONTATO</h5>
+      <a href=""><button><i class="bi bi-whatsapp"></button></i></a>
+      <a href="" method="POST"><button><i class="bi bi-envelope-at"></button></i></a>
+    </div><!--contatos-->
+
+
+    <div class="rede-sociais">
+        <h5>REDES SOCIAIS</h5>
+        <a href=""><button><i class="bi bi-linkedin"></i></button></a>
+        <a href=""><button><i class="bi bi-instagram"></button></i></a>
+     
+    </div><!--rede-sociais-->
+</div><!--footer-->
+
+</footer>
+
+
+<div class="text-fim">
+    <p>
+     <span> &copy;2024,</span> Todos os direitos reservados Raquel Baqui Oliveira.
+    </p>
+  </div>
+
+
+    
+</body>
+</html>
